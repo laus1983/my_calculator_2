@@ -24,6 +24,11 @@ function seno() {
 var num = document.getElementById("n1");
 num.value = Math.sin(num.value);
 }
+
+function inverso() {
+  var num = document.getElementById("n1");
+  num.value = 1/num.value;
+}
 </script>
 </head>
 <h1>Calculadora de Luis Alberto Urdaneta Salazar</h1>
@@ -37,6 +42,8 @@ Number:
 <button onclick="cuarta_potencia()"> x^4 </button>
 
 <button onclick="seno()"> sin(x) </button>
+
+<button onclick="inverso()"> 1/x </button>
 
 <body>
 
